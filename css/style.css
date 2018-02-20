@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+header {
+    position: relative;
+    z-index: 8;
+    width: 35px;
+    float: right;
+}
+header nav {
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 250px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    padding: 10px;
+}
+
+header nav ul li a {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: inline-block;
+}
+.active {
+    background-color: #fff;
+}
+header nav ul li a:hover {
+    box-shadow: 0 0 5px #fff;
+    background-color: rgba(255,255,255,0.15);
+}
+#video {
+    margin-bottom: -49px;
+    z-index: -1;
+}
+#forside_temp {
+    width: 100%;
+}
+#forside_temp img {
+    width: 100%;
+}
+
+/* ARTICLES */
+
+/* ARTICLE 1 */
+
+#boks1 {
+    width: 100%;
+    padding: 0px 0 0 0;
+    margin: 45px 0 -45px 0;
+    background-image: url(../images/article1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    
+}
+#boks1_tekst1 {
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    width: 100%;
+    margin: 0px auto;
+    font-family: 'Armata', sans-serif;
+    padding: 10px 0px 20px 0;
+    background-color: rgba(0,0,0,0.8);
+}
+#boks1_tekst1 p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#boks1_citat {
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    background-color: #494949;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 
+    padding: 10px;
+    font-style: italic;
+    background-image: url(../images/typhoon-haiyan.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boks1_citat p {
+    padding: 80px 0;
+}
+#boks1_tekst1 h1 {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+#boks1_tekst2 {
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    width: 100%;
+    margin: 0px auto;
+    font-family: 'Armata', sans-serif;
+    padding: 20px 0px 30px 0;
+    background-color: rgba(0,0,0,0.8);
+}
+#boks1_tekst2 p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* ARTICLE 2 */
+
+#boks2 {
+    width: 100%;
+    margin: 41px 0 -45px 0;
+    background-image: url(../images/locals2.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 4;
+}
+
+#article2 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15% 0;
+    
+}
+#article2_billede {
+    width: 100%;
+}
+#article2_billede img {
+    width: 100%;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.localstext {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    margin: 60px 0;
+    font-family: 'Armata', sans-serif;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 10px #000;
+}
+
+/* ARTICLE 3 */
+
+#boks3 {
+    width: 100%;
+    margin: 45px 0 -45px 0;
+    z-index: 3;
+}
+
+#article3 h1 {
+    position: absolute;
+    padding: 10% 3% 10% 2%;
+    width: 25%;
+    margin-top: 5%;
+    color: rgb(240, 240, 240);
+    font-family: 'Poiret One', cursive;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0px 400px 400px 0px;
+}
+
+#locals1 {
+    width: 100%;
+}
+
+/* ARTICLE 4 */
+
+#boks4 {
+    height: 1080px;
+    background-color: #000000;
+    margin: 41px 0 -45px 0;
+    z-index: 5;
+}
+#article4 {
+    width: 80%;
+}
+@keyframes fadey { 
+0% { opacity: 0; }
+15% { opacity: 1; }
+85% { opacity: 1; }
+100% { opacity: 0; }
+}
+figure#slideshow { 
+  width: 100%; 
+  margin: 0 auto; 
+  cursor: pointer;
+}
+figure#slideshow img { 
+  position: absolute; 
+  width: 100%; height: 1080px; 
+  opacity: 0; 
+}
+/* ARTICLE 5 */
+
+#boks5 {
+    width: 100%;
+    margin: 45px 0 -45px 0;
+    background-image: url(../images/pi2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+}
+
+#article5 {
+    width: 80%;
+    display: flex;
+    margin: 0px auto;
+    padding: 80px 0;
+    
+}
+article5_billede {
+    width: 40%;    
+}
+
+#article5_billede img {
+    width: 80%;
+}
+#article5_tekst {
+    width: 50%;
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Armata', sans-serif;
+}
+#article5_tekst object {
+    padding-top: 80px;
+}
+#article5_tekst h3 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+#pi-citat {
+    font-family: 'Poiret One', cursive;
+    padding: 25px 0;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+/* Article 6 */
+
+#boks6 {
+    width: 100%;
+    margin: 44px 0 -45px 0;
+    z-index: 7;
+}
+
+#article6 {
+    display: flex;
+    align-items: top;
+    position: relative;
+    background-image: url(../images/pi3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+
+#bg-pi-2 {
+    width: 100%;
+}
+
+.collage-tekst {
+    font-family: 'Armata', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px auto;
+    width: 20%;
+    height: 280px;
+}
+#video_play {
+    margin-top: 45px;
+}
