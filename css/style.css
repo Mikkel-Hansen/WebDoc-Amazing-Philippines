@@ -222,6 +222,7 @@ figure#slideshow img {
     background-image: url(../images/pi2.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     z-index: 6;
 }
 
@@ -232,7 +233,7 @@ figure#slideshow img {
     padding: 80px 0;
     
 }
-article5_billede {
+.article5_billede {
     width: 40%;    
 }
 
