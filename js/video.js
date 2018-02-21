@@ -15,3 +15,7 @@ v.onclick = function() {
 
     return false;
 };
+
+video.addEventListener('ended', function() { 
+   this.currentTime = 1; 
+}, false);
